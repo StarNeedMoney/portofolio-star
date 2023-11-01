@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ItsStar.png" class="logo"></img>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Service">Service</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer</p>
+                <h1>Hi, I'm <span>Bintang</span><br>I'm Web Designer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bintang.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Perkenalkan nama saya adalah Fazril Bintang Baihaqi saya berpengalaman dalam bidang web desaigner
+                        dengan komitmen untuk memberikan solusi kreatif dan inovatif.Kemampuan saya dalam web desaigner telah
+                        membantu saya menghadapi tantangan dan mencapai tujuan dalam karier hidup saya.Saya sangat antusias 
+                        umtuk terus belajar dan berkembang,serta siap menghadapi proyek-proyek menantang. Saya sangat senang 
+                        bekerja sama dengan orang-orang, berbagi ide dan menciptakan solusi yang bermanfaat.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2011 - 2013</span><br>TK AL - MUHAJIRIN</li>
+                            <li><span>2013 - 2018</span><br>SDN PANUNGGANGAN 10 </li>
+                            <li><span>2018 - 2020</span><br>SMP NEGERI 23 KOTA TANGERANG</li>
+                            <li><span>2020 - 2025</span><br>SMK NEGERI 4 KOTA TANGERANG</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2016</span><br>UI/UX Design training at ET Institute</li>
+                            <li><span>2016 Development</span><br>MBA from MIT Bangalore</li>
+                            <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="Service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Development</h2>
+                    <p> Saya menghadirkan aplikasi mobile berkualitas tinggi yang dibangun fokus pada desain yang menawan dan unik, 
+                        Spesialis dalam mengembangkan aplikasi berbasis Android dan IOS.</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p> Saya berfokus pada menciptakan desain web yang kreatif dan menarik, Merancang situs web yang responsif sehingga 
+                        tampil sempurna di berbagai perangkat mulai dari Dekstop dan Perangkat mobile.</p>
+                </div>
+                <div>
+
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Saya ahli dalam menciptakan pengalaman pengguna yang menarik dan mudah digunakan melalui desain antarmuka pengguna
+                        (UI) dan pengalaman pengguna (UX).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------WORK--------- -->
+    <div id="Work">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ytta aja.jpg" alt="">
+                    <div class="layer">
+                        <h2>Pembuatan Animasi</h2>
+                        <p>Disini adalah hasil mahakarya saya dalam pembuatan animasi.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pls.jpg" alt="">
+                    <div class="layer">
+                        <h2>Poster Kemerdekaan Indonesia</h2>
+                        <p>Disini saya juga bisa membuat poster dan ini adalah hasil contoh pembuatan poster saya.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/star 123.jpg" alt="">
+                    <div class="layer">
+                        <h2>Pembuatan Website Coca Cola</h2>
+                        <p>Dan saya juga bisa membuat website promosi dan ini adalah hasil website saya.</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-location-dot"></i> Tangerang Kp Sawah Dalam Rt 03 Rw 04</p>
+                    <p><i class="fas fa-paper-plane"></i> FazrilBintangBaihaqi2007@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 087773375259</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/profile.php?id=100072214522969"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/ItsMeStar143737"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/starname123/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/its-mestar-749741299/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1zliVvF7TkCWouzLYxf8e-NNh1CJQx47c/view?usp=sharing" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+
+                    <form action="https://formsubmit.co/fazrilbintangbaihaqi2007@gmail.com" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_captcha" value="false">
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Dev Star. Made with <i class="fas fa-heart"></i> By Dev Star</p>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>
